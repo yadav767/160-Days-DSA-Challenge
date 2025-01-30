@@ -1,0 +1,10 @@
+int swapRange(A,B,C){
+   let p1=B;
+   let p2=C;
+   while(p1<p2){
+     let temp=A[p1];
+     A[p1]=A[p2];
+     A[p2]=temp;
+   }
+  return A;
+}

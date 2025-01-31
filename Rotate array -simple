@@ -1,0 +1,10 @@
+function rotateArray(A,B){
+  let n=A.size;
+  k=k%n;
+  // reverse the entire array
+  reverse part(A,0,n-1);
+  //reverse k element
+  reverspart(A,0,k-1);
+  reverse last part
+  reverse part(A,k,n-1)
+}

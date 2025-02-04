@@ -1,0 +1,11 @@
+function Equal(A){      // Given an array you have to find in how many second it will take to equalize the array
+  let max=A[0];
+  let time=0;
+  for(let i=0 ;i<A.length;i++){ //first find the max number
+    if(A[i]>max)
+      max=A[i];
+  }
+  for(let i=0; i<A.length ;i++){  // then we simply subtract the element of A by max
+    time+=max-A[i];
+  }
+return time;

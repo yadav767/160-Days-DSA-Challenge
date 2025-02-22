@@ -1,0 +1,13 @@
+function(A){
+   let n=A.length;
+   let ans=[];
+   let max=A[n-1];
+   ans.push(max);
+   for(let i=n-2 ;i>=0;i--){
+      if(A[i]>max){
+         final.push(A[i]);
+         max=A[i];
+      }
+   }
+return final;
+}

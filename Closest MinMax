@@ -1,0 +1,25 @@
+function(A){
+   let maxi=-1;
+   let mini=-1;
+   let ans=A.length;
+   let max=Math.max(...A);
+   let min=Math.min(...A);
+   if(max===min){return 1;}
+   for(let i=A.length ;i>=0 ;i--){
+      if(A[i]==min){
+         if(maxi!=-1){
+            ans=Math.min(ans,maxi-i+1);
+         }
+         mini=i;
+      }
+      else if(A[i]==max){
+         if(mini!=-1){
+            ans=Math(ans,mini-i+1);
+         }
+         maxi=i;
+
+      }
+  }
+return ans;
+}
+    

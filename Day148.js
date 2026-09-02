@@ -1,4 +1,5 @@
-//Leetode Problem 2119: A Number After a Double Reversal
+//Leetode Problem 2119: 
+
 let num = 1800;
 var isSameAfterReversals = function (num) {// 0 is special — always true
     if (num === 0) return true;

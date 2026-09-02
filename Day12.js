@@ -1,5 +1,5 @@
-//->Two string can be anagram if the both the string have tha same number character ,order does not matter.
 
+//->isko set ki madad se karna hia.
 
 
 let s = "malayalam";

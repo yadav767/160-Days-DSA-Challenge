@@ -1,3 +1,5 @@
+//Isme aaoke do array diye rahenge apko simply dono array ke ek ek element ko maatch karaynge.
+
 let A = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
 let B = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
 console.log(isMatricesAreSame(A, B));

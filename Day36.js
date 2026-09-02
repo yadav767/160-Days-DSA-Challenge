@@ -1,3 +1,5 @@
+//Abundant number ek aisa number hota hai jinke divisors ka sum original ke barabar hota hia.
+
 function isAbundant(number) {
   let sum = 0;
 

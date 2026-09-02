@@ -1,3 +1,5 @@
+// Is me kuch nahi karna bss simply ek scalar value ka multiply karna hai har ek element mai .
+
 let A = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 let B = 2
 function sclarProduct(A, B) {
@@ -10,7 +12,7 @@ function sclarProduct(A, B) {
 sclarProduct(A, B);
 for (let i = 0; i < A.length; i++) {
     for (let j = 0; j < A[0].length; j++) {
-        process.stdout.write(`${A[i][j]}`);
+        process.stdout.write(`${A[i][j]} `);
     }
     console.log();
 }

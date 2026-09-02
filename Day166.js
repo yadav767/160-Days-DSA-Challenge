@@ -12,4 +12,4 @@ var maxRepeating = function (sequence, word) {
 
     return count;
 };
-console.log(maxRepeating(sequence, word));
+console.log(maxRepeating(sequence, word))

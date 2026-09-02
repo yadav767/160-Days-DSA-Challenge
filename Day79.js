@@ -1,6 +1,5 @@
 //19. Remove Nth Node From End of List.
 
-
 var removeNthFromEnd = function (head, n) {
 
     let temp = head;

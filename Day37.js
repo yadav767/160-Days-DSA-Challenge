@@ -1,3 +1,5 @@
+//->Quick Sort algorithm .
+
 let arr = [12, 4, 5, 6, 34, 76, 3];
 quickSort(arr, 0, arr.length - 1);
 console.log(arr);
@@ -10,17 +12,19 @@ function quickSort(arr, first, last) {
 }
 
 function partitionPivot(arr, first, last) {
-  let pivot = arr[last];
-  let i = -1;
+  let pivot = arr[last]; //hum arr ke last element ko pivot manenge .
+  let i = first - 1; //aur i hamesha first -1 se chalega ;
   for (let j = first; j < last; j++) {
+    //hum j ko poore array pe chalayenge.
     if (arr[j] < pivot) {
-      i++;
-      swapElement(arr, i, j);
+      //agar j ka koi bhi element hamare pivot alement se chota aata hai.
+      i++; // to sabse pehle hum jagah banayenge i ko ++ karke.
+      swapElement(arr, i, j); //aur i ko ++ karne ke baad hum j waley element se swap karenge
     }
   }
-  i++;
+  i++; //jab hamara j pivot ke pehle tak pahuch jaye to hum i ko ek badhayenge aur phir badhane ke baad hum usse apne pivot element se swap karenge.
   swapElement(arr, i, last);
-  return i;
+  return i; //aur swap karne ke baad ji ith element hoga vo hamara naya pivot element hoga.
 }
 
 function swapElement(arr, i, j) {

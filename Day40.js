@@ -10,4 +10,4 @@ function permutations(persons, seats) {
   return ans;
 }
 
-console.log(permutations(5, 3));
+console.log(permutations(5, 3));      

@@ -1,3 +1,5 @@
+// you have given an array you have to return the sum by row wise .
+
 let A = [[1, 2, 3], [4, 5, 6], [6, 7, 8]];
 function rowSum(A) {
     let n = A.length;

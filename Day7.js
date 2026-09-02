@@ -1,3 +1,5 @@
+//check the given string is palindromic or not.
+
 let str = "makayalam";
 let isPalindrome = true;
 let i = 0;

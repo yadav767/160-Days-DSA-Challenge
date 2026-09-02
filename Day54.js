@@ -29,6 +29,8 @@ class LinkedList {
         }
         console.log(null);
     }
+
+
 }
 
 let obj = new LinkedList();
@@ -37,4 +39,10 @@ obj.insertNumber(20)
 obj.insertNumber(30)
 obj.insertNumber(40)
 obj.insertNumber(50)
+
 obj.printLL()
+obj.insertNodeInLast(70)
+obj.insertNodeInLast(80)
+obj.insertNodeInLast(90)
+obj.printLL()
+

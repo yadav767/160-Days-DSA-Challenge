@@ -1,6 +1,6 @@
+//->Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
+
 let nums = [1, 2, 2, 4, 4, 5, 5];
-
-
 
 var singleNumber = function (nums) {
 

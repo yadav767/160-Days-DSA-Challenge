@@ -1,3 +1,5 @@
+//Friendly pair wo do numbers hote hai agar hum unn dono numbers ka divisior nikale aur unka sum kare unke original number se devide karde to dono nubers ka ratio same ana chaiye.
+
 let prompt = require(`prompt-sync`)();
 let n1 = prompt("Enter the first number: ");
 let n2 = prompt("Enter the first number: ");

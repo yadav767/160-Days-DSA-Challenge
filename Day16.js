@@ -5,11 +5,11 @@ function appearTwice(s) {
         let ch = s.charAt(i);
         if (map.has(ch)) {
             map.set(ch, map.get(ch) + 1);
-            if (map.get(ch) == 2) return ch;
+            if (map.get(ch) == 2) console.log(ch);
         }
         else {
             map.set(ch, 1);
         }
     }
 }
-console.log(appearTwice(s));
+appearTwice(s)

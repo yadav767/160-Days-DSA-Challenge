@@ -7,8 +7,6 @@ function firstAndLast(nums, target) {
     return [start, end];
 }
 
-
-
 let findElem = function (nums, target, isTrue) {
     let first = 0;
     let last = nums.length - 1;

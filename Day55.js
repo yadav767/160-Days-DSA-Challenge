@@ -21,6 +21,7 @@ class LinkedList {
         newNode.next = this.head;
         this.head = newNode;
     }
+
     printLL() {
         let temp = this.head;
         while (temp != null) {
@@ -29,6 +30,7 @@ class LinkedList {
         }
         console.log(null);
     }
+
     insertNodeInLast(val) {
         this.size++;
         const lastNode = new Node(val);
@@ -86,6 +88,7 @@ class LinkedList {
         temp.next = null
 
     }
+
 }
 
 let obj = new LinkedList();
@@ -95,13 +98,6 @@ obj.insertNumber(30)
 obj.insertNumber(40)
 obj.insertNumber(50)
 
-// obj.printLL()
-// obj.insertNodeInLast(70)
-// obj.insertNodeInLast(80)
-// obj.insertNodeInLast(90)
-// obj.printLL()
-// obj.deleteAtFirst()
-// obj.printLL()
 obj.insertAtIndex(45, -1);
 obj.printLL();
 

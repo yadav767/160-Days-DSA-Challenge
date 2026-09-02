@@ -1,5 +1,4 @@
 
-
 let n = 27;
 var isPowerOfThree = function (n) {
     if (n <= 0) return false;

@@ -1,3 +1,4 @@
+//2544. Alternating Digit Sum
 
 
 var alternateDigitSum = function (n) {

@@ -1,3 +1,5 @@
+//Neon number vo number hote hai jinka square kare and then uss square number ke digit ka sum kare aur vo sum agar original number ke barabar aa jaye to neon number hai.
+
 let prompt = require(`prompt-sync`)();
 let n = prompt("Enter any number:");
 

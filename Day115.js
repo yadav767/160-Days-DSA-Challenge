@@ -22,4 +22,4 @@ var rotate = function (matrix) {
     return matrix
 
 };
-console.log(rotate(matrix))
+console.log(rotate(matrixDay))

@@ -41,3 +41,12 @@ function stringToInteger(s) {
 }
 
 console.log(stringToInteger(s));
+
+// Char	What happens	State after
+// ' ' (×6)	started is false → each one skipped (leading whitespace)	still started=false
+// '-'	Not space, is a sign, started is false → accept it	sign="-", started=true
+// '0'	Digit → append	cleanString="0"
+// '0'	Digit → append	cleanString="00"
+// '4'	Digit → append	cleanString="004"
+// '2'	Digit → append	cleanString="0042"
+// ' '	Space, but started is true now → break the loop	loop stops here

@@ -1,5 +1,5 @@
 //Leetcode 12 : Convert integer to roman
-const num = 1994;
+const num = 800;
 
 function integerToRoman(num) {
     const romanTable = [
